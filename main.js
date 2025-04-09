@@ -2,6 +2,13 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
 
+const cl = console.log
+cl('msg1')
+var q = 5
+cl(q)
+q++
+cl(q)
+
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({

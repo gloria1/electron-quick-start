@@ -1,0 +1,7 @@
+
+
+clean install gives me vscode debugging of main process
+
+need to add
+    typescript
+    react
