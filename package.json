@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "build": "tsc",
+    "start": "yarn build && electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -18,5 +19,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^35.1.4"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
   }
 }

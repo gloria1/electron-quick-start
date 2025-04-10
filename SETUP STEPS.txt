@@ -5,3 +5,5 @@ clean install gives me vscode debugging of main process
 need to add
     typescript
     react
+
+need to make this my own repo (not a checkout from the public github repo)
