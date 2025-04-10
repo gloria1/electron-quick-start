@@ -6,4 +6,12 @@
  * `contextIsolation` is turned on. Use the contextBridge API in `preload.js`
  * to expose Node.js functionality from the main process.
  */
-//# sourceMappingURL=renderer.js.map
+Object.defineProperty(exports, "__esModule", { value: true });
+const client_1 = require("react-dom/client");
+const App_1 = require("./App");
+const container = document.getElementById('renderroot');
+if (container !== null) {
+    const root = (0, client_1.createRoot)(container);
+    root.render(<App_1.App />);
+}
+//# sourceMappingURL=renderer.jsx.map
