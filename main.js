@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require('electron');
 const path = require('node:path');

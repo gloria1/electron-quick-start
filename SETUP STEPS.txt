@@ -1,1 +1,6 @@
 
+path to yarn is /Users/chrissuchar/.nvm/versions/node/v23.11.0/bin/yarn  on mac studio
+
+
+tsc produces renderer.jsx - don't i want just a js ?
+    how does it work in viewer etc.?
