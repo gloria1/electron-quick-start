@@ -1,4 +1,23 @@
 
+
+
+
+NEXT STEP
+   build a new project from scratch
+   repeat steps to get it working
+   verify that tsc is working along the way
+
+
+
+PROBLEM # 1
+   tsc fails with lots of error messages
+
+PROBLEM # 2
+   launch.json fails on mmini because it says cannot find yarn - though this works on mac studio
+
+
+
+
 path to yarn is /Users/chrissuchar/.nvm/versions/node/v23.11.0/bin/yarn  on mac studio
 
 
